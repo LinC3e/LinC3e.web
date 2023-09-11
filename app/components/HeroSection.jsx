@@ -4,13 +4,13 @@ import Image from "next/image";
 const HeroSection = () => {
     return (
         <section>
-            <div className="grid grid-cols-1 lg:grid-cols-12">
-                <div className="col-span-7 place-self-center">
-                    <h1 className='text-white mb-4 text-4xl lg:text-6xl font-bold'>LinC3e</h1>
+            <div className="grid grid-cols-1 sm:grid-cols-12">
+                <div className="col-span-7 place-self-center text-center sm:text-left">
+                    <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold'>LinC3e</h1>
                     <p className="text-[#ADB7BE] text-lg lg:text-xl mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quibusdam.</p>
                     <div>
-                        <button className="px-6 py-3 rounded-full bg-red-700 mr-4 hover:bg-slate-200 hover:text-black">Hire me</button>
-                        <button className="px-6 py-3 rounded-full bg-red-700 mr-4 hover:bg-slate-200 hover:text-black">Download Cv</button>
+                        <button className="px-6 py-3 mb-4 w-56 sm:w-fit rounded-full bg-red-700 mr-4 hover:bg-slate-200 hover:text-black">Hire me</button>
+                        <button className="px-6 py-3 w-56 sm:w-fit rounded-full bg-red-700 mr-4 hover:bg-slate-200 hover:text-black">Download Cv</button>
                     </div>
                 </div>
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
